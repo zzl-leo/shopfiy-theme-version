@@ -1,5 +1,21 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "",
+          "title": "Hero Title--111222",
+          "text": "<p>Edit this content in the theme customizer.<\/p>",
+          "button_label": "Shop Products",
+          "button_link": "\/collections\/all"
+        }
+      }
+    },
+    "content_for_index": [
+      "hero"
+    ]
+  },
   "presets": {
     "Default": {
       "sections": {
@@ -8,16 +24,15 @@
           "settings": {
             "image": "",
             "title": "Hero Title",
-            "text": "Edit this content in the theme customizer.",
+            "text": "<p>Edit this content in the theme customizer.<\/p>",
             "button_label": "Shop Products",
-            "button_link": "/collections/all",
-            "overlay_position": "left",
-            "overlay_theme": "light",
-            "overlay_opacity": "0.5"
+            "button_link": "\/collections\/all"
           }
         }
       },
-      "content_for_index": ["hero"]
+      "content_for_index": [
+        "hero"
+      ]
     }
   }
 }
