@@ -1,0 +1,7 @@
+development:
+  password: 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
+  theme_id: "135302545659"
+  store: https://xn-yfru5ml1e46evqpiu8binn.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+    - templates/*.json
